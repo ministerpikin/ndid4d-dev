@@ -25,7 +25,7 @@
 
     $nwpApp = new cNwp_app_core();
 
-    $host = defined('RABBITMQ_HOST') && RABBITMQ_HOST ? RABBITMQ_HOST : '10.1.45.17'; // Problems with loadENV on the 10.1.44.20 server (hot quick fix)
+    $host = defined('RABBITMQ_HOST') && RABBITMQ_HOST ? RABBITMQ_HOST : '192.168.222.143'; // Problems with loadENV on the 10.1.44.20 server (hot quick fix)
     $port = defined('RABBITMQ_PORT') && RABBITMQ_PORT ? RABBITMQ_PORT : 5673;
 
     function exception_handler($exception) {
