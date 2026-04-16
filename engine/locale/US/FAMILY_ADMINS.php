@@ -1,0 +1,1 @@
+<?php define( 'FAMILY_ADMINS' , 'TRUE' ); ?>

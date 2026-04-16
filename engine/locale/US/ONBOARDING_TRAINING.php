@@ -1,0 +1,1 @@
+<?php define( 'ONBOARDING_TRAINING' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'REVISION_HISTORY' , 'TRUE' ); ?>

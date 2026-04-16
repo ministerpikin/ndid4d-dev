@@ -1,0 +1,3 @@
+<?php
+	define( 'CUSTOMERS' , 'TRUE' );
+?>

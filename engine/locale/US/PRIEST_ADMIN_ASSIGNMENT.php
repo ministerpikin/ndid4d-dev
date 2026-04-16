@@ -1,0 +1,1 @@
+<?php define( 'PRIEST_ADMIN_ASSIGNMENT' , 'TRUE' ); ?>

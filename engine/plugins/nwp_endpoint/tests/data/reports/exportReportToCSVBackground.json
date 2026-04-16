@@ -1,0 +1,23 @@
+{
+  "mem_start": 4047168,
+  "start": 1695805838.235753,
+  "name": "nwp_reports-execute-1695805838.json",
+  "data": {
+    "get": {
+      "nwp_action": "reports_bay",
+      "nwp_todo": "check_bg_process",
+      "action": "nwp_reports",
+      "todo": "execute",
+      "nwp_repro": "1",
+      "modal": "1"
+    },
+    "post": {
+      "mod": "-",
+      "id": "20u33889393711636726950"
+    },
+    "time": "1695805838"
+  },
+  "end": 1695805848.334146,
+  "mem_end": 14642432,
+  "output": "{\n    \"err\": \"\",\n    \"cls\": \"creports_bay.php\",\n    \"mth\": \"save_generate_csv\",\n    \"inf\": \"<h4>Successful Data Export<\\/h4><a class=\\\"btn btn-success\\\" href=\\\"http:\\/\\/localhost\\/ndid4d-dev\\/engine\\/files\\/35991362173\\/2023\\/September - 09.27.23\\/Children with NIN.csv\\\" target=\\\"_blank\\\">Download CSV<\\/a>\",\n    \"theme\": \"note note-success alert-success\",\n    \"tok\": \"94cba39df4017f7d1845f1d8969a38b2\",\n    \"manual_close\": 1,\n    \"html_replacement_selector\": \"#export-config-container\",\n    \"html_replacement\": \"<div class=\\\"alert note note-success alert-success alert-block1 alert-dismissable\\\"> <button type=\\\"button\\\" class=\\\"close alert-close-button\\\" data-dismiss=\\\"alert\\\">&times;<\\/button><p><h4>Successful Data Export<\\/h4><a class=\\\"btn btn-success\\\" href=\\\"http:\\/\\/localhost\\/ndid4d-dev\\/engine\\/files\\/35991362173\\/2023\\/September - 09.27.23\\/Children with NIN.csv\\\" target=\\\"_blank\\\">Download CSV<\\/a><\\/p><\\/div>\",\n    \"status\": \"new-status\",\n    \"nwp_status\": \"success\",\n    \"return\": 1,\n    \"clear\": 1,\n    \"page_title\": \"\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_reports\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"check_bg_process\",\n        \"nwp_action\": \"reports_bay\",\n        \"duration\": 10.009734869003296\n    }\n}"
+}

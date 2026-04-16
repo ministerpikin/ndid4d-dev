@@ -1,0 +1,1 @@
+<?php define( 'OPTIMUM_CARE_DIAGNOSTIC_CENTER' , 'TRUE' ); ?>

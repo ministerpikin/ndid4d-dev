@@ -1,0 +1,186 @@
+version: '3.9'
+
+networks:
+  mande:
+
+services:
+  web:
+    container_name: web
+    build:
+      context: .
+      dockerfile: nginx.dockerfile
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    volumes:
+      - mande_web:/var/www/html:delegated
+      - ./nginx/ssl:/home/ssl
+    depends_on:
+      - backend
+      - configdb
+    networks:
+      - mande
+  backend:
+    container_name: backend
+    build:
+      context: .
+      dockerfile: php.dockerfile
+    restart: always
+    volumes:
+      - mande_web:/var/www/html:delegated
+    environment:
+      ES_USERNAME: elastic
+      ES_HOST: http://10.1.44.20:9200
+      #NWP_V3_ENDPOINT: http://10.1.44.20/engine/api/
+      NWP_V3_ENDPOINT: https://test-mis.nimc.gov.ng/engine/api/
+      DEVELOPMENT_MODE: false
+      MAINTENANCE_MODE: false
+      OTP_SIGNIN_VALIDITY_CHECK_FINGERPRINT: 1
+      OTP_ON_SIGNIN_VALIDITY: 12    #in hours
+      OTP_EXPIRATION_VALIDITY: 15    #in minutes
+      OTP_ON_SIGNIN: 1
+      BYPASS_USER_ACCOUNT_VERIFICATION: 1
+      VERIFY_USER_REG: 1
+      NWP_OPEN_PMAIL: false
+      NWP_USE_PACKAGE_URL_4_ENDPOINTS: 1
+      HTTPS: true  #enable when ssl is installed
+      INSTALL_PATH: engine/
+      NWP_DOMAIN: test-mis.nimc.gov.ng
+      ENDPOINT: /engine/
+      HIDE_ADVANCED_QUERY_JSON: true
+      NWP_SIGNOUT_REDIRECT_URL: ../../
+      ENABLE_EMAILS: true
+      BULK_UPLOAD_PATH: /var/www/html/engine/php/bulk-upload
+      BULK_IMPORT_MEMORY_LIMIT: 2G
+      PLATFORM: linux
+      MYSQL_BULK_LOAD_FILE_PATH: /var/www/html/engine/tmp/MySQLBulkLoad/data.txt
+      NWP_ENV_FILE: /run/secrets/my_secret
+      NIN_VERIFICATION_ON_ACCOUNT_CREATION: 0
+      HYELLA_FRONTEND_URL: https://test-mis.nimc.gov.ng/m-and-e/main.php
+      SENDER_EMAIL: dev@d1kit.com
+      REPLY_EMAIL: dev@d1kit.com
+      NWP_SEND_GRID_TOKEN: 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
+      NWP_SEND_GRID_URL: https://api.sendgrid.com/v3/mail/send
+      RABBITMQ_HOST: 10.1.44.20
+      RABBITMQ_PORT: 5672
+      NWP_M_AND_E_PROVISIONING_PLUGIN_CONFIG: 1
+      NWP_AUDIT_TRAIL_RETENTION_CYCLE: 10
+      NWP_ELASTIC_DELAY_FOR_CACHE_REFRESH: 5
+    secrets:
+      - my_secret
+    depends_on:
+      - configdb
+    networks:
+      - mande
+  configdb:
+    container_name: configdb
+    image: mysql:latest
+    restart: always   #This restarts the service whenever any defined configuration changes.
+    environment:
+      MYSQL_ROOT_PASSWORD: 1a2B3c4.5X6!7#8@
+      MYSQL_DATABASE: id4d_metadata
+      MYSQL_USER: ejphilip
+      MYSQL_PASSWORD: q1w2eAs.d+z=X@Rc
+    command: mysqld --sql_mode="" --character-set-server=utf8 --init-connect='SET NAMES UTF8;' --innodb-flush-log-at-trx-commit=0 --local-infile=0cls
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    networks:
+      - mande
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    ports:
+        - '8008:80'
+    restart: always
+    environment:
+        PMA_HOST: configdb
+        UPLOAD_LIMIT: 100M
+    depends_on:
+      - configdb
+    networks:
+      - mande
+  mysqlbackup:
+    container_name: configdb-backup
+    image: selim13/automysqlbackup:2.6-9
+    restart: always
+    volumes:
+      - "mysql-backups:/backup"
+    environment:
+      USERNAME: root
+      PASSWORD: "1a2B3c4.5X6!7#8@"
+      DBHOST: configdb
+      DBEXCLUDE: "performance_schema information_schema"
+      CRON_SCHEDULE: "0 0 * * *"
+      EXTRA_OPTS: "--single-transaction"
+    depends_on:
+      - configdb
+    networks:
+      - mande
+  rabbitmq:
+   command:
+     - "rabbitmq-server"
+   container_name: "rabbitmq"
+   entrypoint:
+     - "docker-entrypoint.sh"
+   restart: always
+   environment:
+     - "PATH=/opt/rabbitmq/sbin:/opt/erlang/bin:/opt/openssl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+     - "ERLANG_INSTALL_PATH_PREFIX=/opt/erlang"
+     - "OPENSSL_INSTALL_PATH_PREFIX=/opt/openssl"
+     - "RABBITMQ_DATA_DIR=/var/lib/rabbitmq"
+     - "RABBITMQ_VERSION=3.12.6"
+     - "RABBITMQ_PGP_KEY_ID=0x0A9AF2115F4687BD29803A206B73A36E6026DFCA"
+     - "RABBITMQ_HOME=/opt/rabbitmq"
+     - "HOME=/var/lib/rabbitmq"
+     - "LANG=C.UTF-8"
+     - "LANGUAGE=C.UTF-8"
+     - "LC_ALL=C.UTF-8"
+   image: "rabbitmq:3.12-management"
+   logging:
+     driver: "json-file"
+     options: {}
+   networks:
+     - mande
+   ports:
+     - "15672:15672/tcp"
+     - "5672:5672/tcp"
+   volumes:
+     - "rabbitdata:/var/lib/rabbitmq"
+  amp-php-proxy:
+   command:
+     - "amqp://10.1.44.20:5672"
+   container_name: "amp-php-proxy"
+   entrypoint:
+     - "/usr/bin/amqproxy"
+     - "--listen=0.0.0.0"
+   environment:
+     - "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+   image: "cloudamqp/amqproxy"
+   restart: always
+   depends_on:
+     - rabbitmq
+   logging:
+     driver: "json-file"
+     options: {}
+   networks:
+     - mande
+   ports:
+     - "5673:5673/tcp"
+   user: "1000:1000"
+volumes:
+  rabbitdata:
+  mysql-backups:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/adminuser/docker/m-and-e/mysql-backups
+  mande_web:
+    driver_opts:
+      type: none
+      device: /home/adminuser/docker/m-and-e/ndid4d-dev
+      o: bind
+secrets:
+  my_secret:
+    file: my_secret.txt

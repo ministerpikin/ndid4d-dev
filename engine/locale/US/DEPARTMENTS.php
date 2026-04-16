@@ -1,0 +1,3 @@
+<?php
+	define( 'DEPARTMENTS' , 'TRUE' );
+?>

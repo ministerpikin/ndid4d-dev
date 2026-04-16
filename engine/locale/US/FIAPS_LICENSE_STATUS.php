@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_LICENSE_STATUS' , 'TRUE' ); ?>

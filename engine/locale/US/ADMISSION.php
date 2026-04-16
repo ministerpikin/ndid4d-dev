@@ -1,0 +1,3 @@
+<?php
+	define( 'ADMISSION' , 'TRUE' );
+?>

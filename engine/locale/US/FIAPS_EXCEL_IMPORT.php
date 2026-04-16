@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_EXCEL_IMPORT' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'PAST_MEDICAL_HISTORY' , 'TRUE' ); ?>

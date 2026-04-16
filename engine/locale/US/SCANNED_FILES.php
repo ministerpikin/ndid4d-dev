@@ -1,0 +1,1 @@
+<?php define( 'SCANNED_FILES' , 'TRUE' ); ?>

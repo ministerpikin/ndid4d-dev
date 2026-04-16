@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_UNIQUE_IDENTIFIER_TYPE' , 'TRUE' ); ?>

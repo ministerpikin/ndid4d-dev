@@ -1,0 +1,1 @@
+<?php define( 'EVENT_SCHEDULE' , 'TRUE' ); ?>

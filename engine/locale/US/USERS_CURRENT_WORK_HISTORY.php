@@ -1,0 +1,1 @@
+<?php define( 'USERS_CURRENT_WORK_HISTORY' , 'TRUE' ); ?>

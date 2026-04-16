@@ -1,0 +1,1 @@
+{"device_online":{"field":"online_status","style":"button","type":"all_records","options":{"online":{"color":"#3fd87c"},"offline":{"color":"#d8d87c"}}},"status":{"field":"status","style":"button","type":"all_records","options":{"in-active":{"color":"#d87c7c"}}}}

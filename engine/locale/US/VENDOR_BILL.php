@@ -1,0 +1,1 @@
+<?php define( 'VENDOR_BILL' , 'TRUE' ); ?>

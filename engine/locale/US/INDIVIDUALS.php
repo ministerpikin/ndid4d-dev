@@ -1,0 +1,1 @@
+<?php define( 'INDIVIDUALS' , 'TRUE' ); ?>

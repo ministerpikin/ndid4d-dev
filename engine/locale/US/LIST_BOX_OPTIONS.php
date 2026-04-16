@@ -1,0 +1,1 @@
+<?php define( 'LIST_BOX_OPTIONS' , 'TRUE' ); ?>

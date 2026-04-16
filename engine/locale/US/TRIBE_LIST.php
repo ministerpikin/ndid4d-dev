@@ -1,0 +1,1 @@
+<?php define( 'TRIBE_LIST' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_APPRAISAL_OPINION' , 'TRUE' ); ?>

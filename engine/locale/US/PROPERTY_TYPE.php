@@ -1,0 +1,1 @@
+<?php define( 'PROPERTY_TYPE' , 'TRUE' ); ?>

@@ -1,0 +1,14 @@
+date,value,unit,category,sub_category,source
+2025-04-01,"Lorem ipsum dolor sit.",yes_no,identified,c_online,nimc
+2025-04-01,"Lorem ipsum dolor sit.",yes_no,private,female,ecsu
+2025-04-01,"Lorem ipsum dolor sit.",text,resolved,customer_service,npopc
+2025-04-01,"Lorem ipsum dolor sit.",text,unresolved,customer_service,npopc
+2025-04-01,"Lorem ipsum dolor sit.",text,adults,partners,npopc
+2025-04-01,"Lorem ipsum dolor sit.",number,reported,partners,nimc
+2025-04-01,"Lorem ipsum dolor sit.",yes_no,private,c_offline,ecsu
+2025-04-01,"Lorem ipsum dolor sit.",text,reported,partners,npopc
+2025-04-01,"Lorem ipsum dolor sit.",text,adults,customer_service,npopc
+2025-04-01,"Lorem ipsum dolor sit.",number,adults,female,nimc
+2025-04-01,"Lorem ipsum dolor sit.",number,unresolved,individuals,ecsu
+2025-04-01,"Lorem ipsum dolor sit.",text,unresolved,customer_service,npopc
+2025-04-01,"Lorem ipsum dolor sit.",yes_no,external_intervention,c_online,nimc

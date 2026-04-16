@@ -1,0 +1,1 @@
+<?php define( 'IVF_COUNSELING_CHECKLIST' , 'TRUE' ); ?>

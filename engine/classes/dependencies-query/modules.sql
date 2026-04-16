@@ -1,0 +1,3 @@
+ CREATE TABLE `petrol_station`.`modules` ( `id` varchar(33) NOT NULL , `modules1056` varchar(200) DEFAULT NULL , `modules1057` varchar(200) DEFAULT NULL , `serial_num` int(11) NOT NULL, `creator_role` varchar(200) DEFAULT NULL, `created_by` varchar(200) DEFAULT NULL, `creation_date` int(11) DEFAULT NULL, `modified_by` varchar(200) DEFAULT NULL, `modification_date` int(11) DEFAULT NULL, `ip_address` varchar(200) DEFAULT NULL, `device_id` text NOT NULL, `record_status` varchar(100) DEFAULT NULL ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ; 
+ALTER TABLE `petrol_station`.`modules` ADD PRIMARY KEY (`serial_num`), ADD UNIQUE KEY `id` (`id`) ; 
+ALTER TABLE `petrol_station`.`modules` MODIFY `serial_num` int(11) NOT NULL AUTO_INCREMENT ; 

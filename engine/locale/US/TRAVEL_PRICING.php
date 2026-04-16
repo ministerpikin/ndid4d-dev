@@ -1,0 +1,1 @@
+<?php define( 'TRAVEL_PRICING' , 'TRUE' ); ?>

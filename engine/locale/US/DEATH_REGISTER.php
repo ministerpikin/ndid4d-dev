@@ -1,0 +1,1 @@
+<?php define( 'DEATH_REGISTER' , 'TRUE' ); ?>

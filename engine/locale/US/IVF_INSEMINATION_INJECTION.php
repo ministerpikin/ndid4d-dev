@@ -1,0 +1,1 @@
+<?php define( 'IVF_INSEMINATION_INJECTION' , 'TRUE' ); ?>

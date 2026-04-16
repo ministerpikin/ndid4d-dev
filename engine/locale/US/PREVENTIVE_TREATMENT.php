@@ -1,0 +1,1 @@
+<?php define( 'PREVENTIVE_TREATMENT' , 'TRUE' ); ?>

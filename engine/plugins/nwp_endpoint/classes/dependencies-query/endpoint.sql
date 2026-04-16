@@ -1,0 +1,10 @@
+ CREATE TABLE `vine_pison2`.`endpoint` ( `id` varchar(33) NOT NULL ,  `endpoint6977` varchar(200) DEFAULT NULL ,  `endpoint6978` varchar(200) DEFAULT NULL ,  `endpoint6979` varchar(100) DEFAULT NULL ,  `endpoint6980` text DEFAULT NULL ,  `endpoint6981` mediumtext DEFAULT NULL ,  `endpoint6982` varchar(100) DEFAULT NULL ,  `endpoint6983` varchar(100) DEFAULT NULL ,  `endpoint6984` mediumtext DEFAULT NULL ,  `endpoint6985` varchar(200) DEFAULT NULL ,  `endpoint6986` varchar(100) DEFAULT NULL ,  `endpoint6987` varchar(200) DEFAULT NULL ,  `endpoint6988` varchar(100) DEFAULT NULL ,  `endpoint6989` varchar(100) DEFAULT NULL ,  `endpoint6990` int(11) DEFAULT NULL ,  `endpoint6991` varchar(100) DEFAULT NULL , `serial_num` int(11) NOT NULL, `creator_role` varchar(100) DEFAULT NULL, `created_source` varchar(100) DEFAULT NULL, `created_by` varchar(100) DEFAULT NULL, `creation_date` int(11) DEFAULT NULL, `modified_source` varchar(100) DEFAULT NULL, `modified_by` varchar(100) DEFAULT NULL, `modification_date` int(11) DEFAULT NULL, `ip_address` varchar(100) DEFAULT NULL, `device_id` text NOT NULL, `record_status` varchar(100) DEFAULT NULL ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ; 
+ALTER TABLE `vine_pison2`.`endpoint` ADD PRIMARY KEY (`serial_num`), ADD UNIQUE KEY `id` (`id`) ; 
+ALTER TABLE `vine_pison2`.`endpoint` MODIFY `serial_num` int(11) NOT NULL AUTO_INCREMENT ; 
+ALTER TABLE `vine_pison2`.`endpoint` ADD INDEX(`endpoint6979`) ; 
+ALTER TABLE `vine_pison2`.`endpoint` ADD INDEX(`endpoint6982`) ; 
+ALTER TABLE `vine_pison2`.`endpoint` ADD INDEX(`endpoint6983`) ; 
+ALTER TABLE `vine_pison2`.`endpoint` ADD INDEX(`endpoint6986`) ; 
+ALTER TABLE `vine_pison2`.`endpoint` ADD INDEX(`endpoint6988`) ; 
+ALTER TABLE `vine_pison2`.`endpoint` ADD INDEX(`endpoint6989`) ; 
+ALTER TABLE `vine_pison2`.`endpoint` ADD INDEX(`endpoint6991`) ; 

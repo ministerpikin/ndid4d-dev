@@ -1,0 +1,1 @@
+<?php define( 'SOCIAL_REGISTRY_UPDATE' , 'TRUE' ); ?>

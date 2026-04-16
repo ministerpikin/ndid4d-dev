@@ -1,0 +1,1 @@
+<?php define( 'MORE_INFO' , 'TRUE' ); ?>

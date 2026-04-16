@@ -1,0 +1,1 @@
+<?php define( 'PAYMENT_EXEMPTION' , 'TRUE' ); ?>

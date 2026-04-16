@@ -1,0 +1,1 @@
+<?php define( 'VOID_TRANSACTIONS' , 'TRUE' ); ?>

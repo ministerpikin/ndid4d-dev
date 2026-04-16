@@ -1,0 +1,1 @@
+<?php define( 'MONGO_TEST' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'CREDIT_LIMIT' , 'TRUE' ); ?>

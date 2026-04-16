@@ -1,0 +1,1 @@
+<?php define( 'STAFF_SATISFACTION' , 'TRUE' ); ?>

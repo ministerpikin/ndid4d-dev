@@ -1,0 +1,22 @@
+{
+  "mem_start": 4061936,
+  "start": 1695806055.288203,
+  "name": "nwp_endpoint-execute-1695806055.json",
+  "data": {
+    "get": {
+      "action": "nwp_endpoint",
+      "todo": "execute",
+      "nwp_action": "endpoint",
+      "nwp_todo": "check_callpoint_progress",
+      "nwp_repro": "1"
+    },
+    "post": {
+      "mod": "-",
+      "id": "ent20u3384273861"
+    },
+    "time": "1695806055"
+  },
+  "end": 1695806057.394715,
+  "mem_end": 14590352,
+  "output": "{\n    \"re_process\": 1,\n    \"re_process_code\": 1,\n    \"mod\": \"-\",\n    \"id\": \"ent20u3384273861\",\n    \"action\": \"?action=nwp_endpoint&todo=execute&nwp_action=endpoint&nwp_todo=check_callpoint_progress\",\n    \"typ\": \"saved\",\n    \"err\": \"\",\n    \"msg\": \"<h4><b>Data Loading<\\/b><\\/h4><p>Data Loading Processing ...<\\/p>\",\n    \"cls\": \"cendpoint.php\",\n    \"mth\": \"check_callpoint_progress\",\n    \"inf\": \"<h4><b>Data Loading<\\/b><\\/h4><p>Data Loading Processing ...<\\/p>\",\n    \"theme\": \"note note-info alert-info\",\n    \"html\": \"<div class=\\\"alert note note-info alert-info alert-block1 alert-dismissable\\\"> <button type=\\\"button\\\" class=\\\"close alert-close-button\\\" data-dismiss=\\\"alert\\\">&times;<\\/button><p><h4><b>Data Loading<\\/b><\\/h4><p>Data Loading Processing ...<\\/p><\\/p><\\/div>\",\n    \"tok\": \"7126c4530cedb99278917ceddaaa0f3b\",\n    \"nwp_status\": \"info\",\n    \"page_title\": \"\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_endpoint\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"check_callpoint_progress\",\n        \"nwp_action\": \"endpoint\",\n        \"duration\": 2.015216112136841\n    }\n}"
+}

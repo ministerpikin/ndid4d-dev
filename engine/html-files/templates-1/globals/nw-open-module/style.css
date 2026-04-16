@@ -1,0 +1,35 @@
+#assign-records-table tr.disabled{
+	text-decoration:line-through;
+	color:red;
+}
+#assign-records-table tr.disabled a.add-button{
+	display:none;
+}
+#assign-records-table tr[balance="0"] a.add-button{
+	display:none;
+}
+.actions-con li{
+	margin-bottom:5px;
+}
+#control-panel #transaction-tabs a.m-link{
+	font-size:16px;
+}
+#control-panel #transaction-tabs .action-column a{
+	font-size:18px;
+}
+.nwp-full-screen{
+	position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 99;
+}
+
+.consent-before-action{
+	position: absolute;
+    top: 0;
+    width: 100%;
+    background: #494a4a;
+    height: 100%;
+    z-index: 900;
+}

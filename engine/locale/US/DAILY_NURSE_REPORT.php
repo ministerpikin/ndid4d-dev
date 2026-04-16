@@ -1,0 +1,1 @@
+<?php define( 'DAILY_NURSE_REPORT' , 'TRUE' ); ?>

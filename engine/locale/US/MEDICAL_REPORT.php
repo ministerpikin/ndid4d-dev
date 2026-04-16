@@ -1,0 +1,1 @@
+<?php define( 'MEDICAL_REPORT' , 'TRUE' ); ?>

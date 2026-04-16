@@ -1,0 +1,22 @@
+{
+  "mem_start": 4139616,
+  "start": 1695894750.209881,
+  "name": "nwp_endpoint-execute-1695894750.json",
+  "data": {
+    "get": {
+      "action": "nwp_endpoint",
+      "todo": "execute",
+      "nwp_action": "endpoint_log",
+      "nwp_todo": "purge_endpoint",
+      "html_replacement_selector": "dash-board-main-content-area",
+      "menu_title": "Purge Data Only"
+    },
+    "post": {
+      "id": "eg3389827582650891826"
+    },
+    "time": "1695894750"
+  },
+  "end": 1695894750.375343,
+  "mem_end": 16803072,
+  "output": "{\n    \"typ\": \"saved\",\n    \"err\": \"\",\n    \"msg\": \"<h4><b>Data Purged Successfully<\\/b><\\/h4><p>Data Collected has been purged successfully<\\/p>\",\n    \"cls\": \"cendpoint_log.php\",\n    \"mth\": \"purge_endpoint\",\n    \"inf\": \"<h4><b>Data Purged Successfully<\\/b><\\/h4><p>Data Collected has been purged successfully<\\/p>\",\n    \"theme\": \"note note-success alert-success\",\n    \"html\": \"<div class=\\\"alert note note-success alert-success alert-block1 alert-dismissable\\\"> <button type=\\\"button\\\" class=\\\"close alert-close-button\\\" data-dismiss=\\\"alert\\\">&times;<\\/button><p><h4><b>Data Purged Successfully<\\/b><\\/h4><p>Data Collected has been purged successfully<\\/p><\\/p><\\/div>\",\n    \"tok\": \"554196e2f59f782921c8d7b2945021f3\",\n    \"nwp_status\": \"success\",\n    \"page_title\": \"Purge Data Only\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_endpoint\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"purge_endpoint\",\n        \"nwp_action\": \"endpoint_log\",\n        \"duration\": 0.06902790069580078\n    }\n}"
+}

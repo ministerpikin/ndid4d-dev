@@ -1,0 +1,1 @@
+<?php define( 'MIKE11' , 'TRUE' ); ?>

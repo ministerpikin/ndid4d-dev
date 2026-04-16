@@ -1,0 +1,48 @@
+#data-entry-form-container {
+	
+}
+#data-entry-form-container label{
+	font-size:10px;
+	font-weight:600;
+}
+#data-entry-form-container h3{
+	font-size:12px !important;
+	font-weight:600;
+	margin-top:0;
+}
+
+@media print{
+	.shopping-cart-table .table-striped > thead> tr > th,
+	.shopping-cart-table .table-striped > tbody > tr > td{
+		border:1px solid #000 !important;
+		position:initial;
+		color:#000;
+	}
+	.shopping-cart-table table{
+		border:1px solid #000 !important;
+	}
+}
+ul.qq-upload-list{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.allow-scroll-1{
+	max-height:450px; overflow-y:auto; overflow-x:hidden; padding-bottom:20px;
+}
+.allow-scroll{
+	max-height:500px; overflow-y:auto; overflow-x:hidden; padding-bottom:20px;
+}
+#process-form #form-gen-submit{
+	display:none;
+}
+
+#process-record-search-result .btn.dark.disabled, #process-record-search-result  .btn.dark[disabled] {
+    background-color: #666 !important;
+    color: #fff !important;
+    outline: none !important;
+}
+#process-record-search-result .form-control[disabled],#process-record-search-result .form-control[readonly]{
+	background:#ccc !important;
+}

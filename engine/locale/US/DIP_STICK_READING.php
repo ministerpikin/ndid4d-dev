@@ -1,0 +1,1 @@
+<?php define( 'DIP_STICK_READING' , 'TRUE' ); ?>

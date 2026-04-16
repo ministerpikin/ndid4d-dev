@@ -1,0 +1,1 @@
+<?php define( 'WORKFLOW_TEMPLATE' , 'TRUE' ); ?>

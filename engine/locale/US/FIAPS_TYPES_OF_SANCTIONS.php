@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_TYPES_OF_SANCTIONS' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'PRE_OPERATIVE_NOTE' , 'TRUE' ); ?>

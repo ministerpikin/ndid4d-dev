@@ -1,0 +1,27 @@
+{
+  "mem_start": 4036472,
+  "start": 1695804907.946584,
+  "name": "nwp_reports-execute-1695804907.json",
+  "data": {
+    "get": {
+      "daction": "nwp_reports",
+      "dtodo": "execute",
+      "dnwp_action": "reports_bay",
+      "dnwp_todo": "exec_report_url",
+      "default": "default",
+      "action": "nwp_reports",
+      "todo": "execute",
+      "nwp_action": "reports_bay",
+      "nwp_todo": "exec_report_url",
+      "development_mode_off": 1
+    },
+    "post": {
+      "data": "{\"plugin\":\"nwp_reports\",\"tables\":{\"grm_data\":{\"percentage\":{\"alias\":\"percentage\",\"field\":\"id\",\"aggregation\":\"percentage\"}}},\"use_selects\":[],\"use_groups\":{\"grm_data\":{\"category\":\"group\"}},\"use_sorts\":[],\"query\":{\"query_options\":{\"1\":{\"data\":{\"d1692927087417\":{\"sub_query\":\"1\",\"field\":\"status\",\"condition\":\"in\",\"search_key\":\"options\",\"search_value\":\"open\",\"options\":\"open\",\"logical_operator\":\"\"}},\"condition\":\"\"}}},\"hide_name\":1,\"hide_max_records\":1,\"hide_data_points\":1,\"always_open\":1,\"no_concat\":1,\"configurations\":{\"hide_preview_result\":1},\"table\":\"grm_data\",\"current_tab\":\"\",\"selected_id\":\"\",\"page_offset\":\"0\",\"page_size\":\"500\",\"no_default_group\":1,\"use_field_keys\":1}",
+      "action": "execute"
+    },
+    "time": "1695804907"
+  },
+  "end": 1695804908.205513,
+  "mem_end": 16687224,
+  "output": "{\n    \"type\": 1,\n    \"msg\": \"\",\n    \"data\": [\n        {\n            \"percentage\": \"33.64\",\n            \"count\": \"16859\",\n            \"category\": \"inquiry\"\n        },\n        {\n            \"percentage\": \"33.40\",\n            \"count\": \"16736\",\n            \"category\": \"complaint\"\n        },\n        {\n            \"percentage\": \"32.96\",\n            \"count\": \"16520\",\n            \"category\": \"feedback\"\n        }\n    ]\n}"
+}

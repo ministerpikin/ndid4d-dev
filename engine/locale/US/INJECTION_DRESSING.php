@@ -1,0 +1,1 @@
+<?php define( 'INJECTION_DRESSING' , 'TRUE' ); ?>

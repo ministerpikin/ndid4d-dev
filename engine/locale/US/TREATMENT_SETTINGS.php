@@ -1,0 +1,1 @@
+<?php define( 'TREATMENT_SETTINGS' , 'TRUE' ); ?>

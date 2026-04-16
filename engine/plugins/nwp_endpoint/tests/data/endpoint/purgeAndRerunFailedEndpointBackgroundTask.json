@@ -1,0 +1,22 @@
+{
+  "mem_start": 4139280,
+  "start": 1695894659.722787,
+  "name": "nwp_endpoint-execute-1695894659.json",
+  "data": {
+    "get": {
+      "action": "nwp_endpoint",
+      "todo": "execute",
+      "nwp_action": "endpoint",
+      "nwp_todo": "check_callpoint_progress",
+      "nwp_repro": "1"
+    },
+    "post": {
+      "mod": "-",
+      "id": "ent20u3372019901"
+    },
+    "time": "1695894659"
+  },
+  "end": 1695894662.817383,
+  "mem_end": 14679424,
+  "output": "{\n    \"typ\": \"uerror\",\n    \"err\": \"\",\n    \"msg\": \"<h4><b>Failed to format data into fields<\\/b><\\/h4><p>Mismatching Fields<\\/p>\",\n    \"cls\": \"cendpoint.php\",\n    \"mth\": \"save_dataload\",\n    \"inf\": \"<h4><b>Failed to format data into fields<\\/b><\\/h4><p>Mismatching Fields<\\/p>\",\n    \"theme\": \"alert-error note note-danger alert-danger\",\n    \"html\": \"<div class=\\\"alert alert-error note note-danger alert-danger alert-block1 alert-dismissable\\\"> <button type=\\\"button\\\" class=\\\"close alert-close-button\\\" data-dismiss=\\\"alert\\\">&times;<\\/button><p><h4><b>Failed to format data into fields<\\/b><\\/h4><p>Mismatching Fields<\\/p><\\/p><\\/div>\",\n    \"tok\": \"038c668e235d8a460f0a304f2532d4e4\",\n    \"nwp_status\": \"error\",\n    \"data\": {\n        \"required\": 1\n    },\n    \"javascript_functions\": [\n        \"$nwProcessor.reload_datatable\"\n    ],\n    \"page_title\": \"\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_endpoint\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"check_callpoint_progress\",\n        \"nwp_action\": \"endpoint\",\n        \"duration\": 3.0084660053253174\n    }\n}"
+}

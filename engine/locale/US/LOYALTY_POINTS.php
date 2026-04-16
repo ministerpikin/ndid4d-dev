@@ -1,0 +1,1 @@
+<?php define( 'LOYALTY_POINTS' , 'TRUE' ); ?>

@@ -1,0 +1,11 @@
+ CREATE TABLE `vine_pison2`.`files` ( `id` varchar(55) NOT NULL , `files2490` int(11) DEFAULT NULL , `files2491` varchar(100) DEFAULT NULL , `files2492` varchar(100) DEFAULT NULL , `files2493` varchar(100) DEFAULT NULL , `files2494` varchar(100) DEFAULT NULL , `files2495` varchar(200) DEFAULT NULL , `files2496` text DEFAULT NULL , `files2497` text DEFAULT NULL , `files2498` text DEFAULT NULL , `files2499` varchar(100) DEFAULT NULL , `files5960` varchar(100) DEFAULT NULL , `files2500` varchar(200) DEFAULT NULL , `files2501` varchar(200) DEFAULT NULL , `files7326` text DEFAULT NULL , `serial_num` int(11) NOT NULL, `creator_role` varchar(100) DEFAULT NULL, `created_source` varchar(100) DEFAULT NULL, `created_by` varchar(100) DEFAULT NULL, `creation_date` int(11) DEFAULT NULL, `modified_source` varchar(100) DEFAULT NULL, `modified_by` varchar(100) DEFAULT NULL, `modification_date` int(11) DEFAULT NULL, `ip_address` varchar(100) DEFAULT NULL, `device_id` text NULL, `record_status` varchar(100) DEFAULT NULL ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ; 
+ALTER TABLE `vine_pison2`.`files` ADD PRIMARY KEY (`serial_num`), ADD UNIQUE KEY `id` (`id`) ; 
+ALTER TABLE `vine_pison2`.`files` MODIFY `serial_num` int(11) NOT NULL AUTO_INCREMENT ; 
+ALTER TABLE `vine_pison2`.`files` ADD INDEX(`files2491`) ; 
+ALTER TABLE `vine_pison2`.`files` ADD INDEX(`files2492`) ; 
+ALTER TABLE `vine_pison2`.`files` ADD INDEX(`files2493`) ; 
+ALTER TABLE `vine_pison2`.`files` ADD INDEX(`files2494`) ; 
+ALTER TABLE `vine_pison2`.`files` ADD INDEX(`files2499`) ; 
+ALTER TABLE `vine_pison2`.`files` ADD INDEX(`files5960`) ; 
+ALTER TABLE `vine_pison2`.`files`  ADD `files7329` varchar(200) DEFAULT NULL AFTER `files2501` ,  ADD `files7330` varchar(200) DEFAULT NULL AFTER `files7329` ; 
+ALTER TABLE `vine_pison2`.`files`  ADD `files7332` varchar(200) DEFAULT NULL AFTER `files7326` ; 

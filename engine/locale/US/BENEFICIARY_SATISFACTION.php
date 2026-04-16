@@ -1,0 +1,1 @@
+<?php define( 'BENEFICIARY_SATISFACTION' , 'TRUE' ); ?>

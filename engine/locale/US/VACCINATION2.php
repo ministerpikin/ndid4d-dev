@@ -1,0 +1,1 @@
+<?php define( 'VACCINATION2' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'PRIEST_EDUCATIONAL_HISTORY' , 'TRUE' ); ?>

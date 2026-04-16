@@ -1,0 +1,1 @@
+<?php define( 'TRAINING_COURSES' , 'TRUE' ); ?>

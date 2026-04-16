@@ -1,0 +1,1 @@
+<?php define( 'COMPOSITE_ITEMS' , 'TRUE' ); ?>

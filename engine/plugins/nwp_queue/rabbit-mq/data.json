@@ -1,0 +1,22 @@
+{
+  "mem_start": 4085960,
+  "start": 1699616736.300013,
+  "name": "nwp_reports-execute-1699616736.json",
+  "data": {
+    "get": {
+      "action": "nwp_reports",
+      "todo": "execute",
+      "nwp_action": "reports_bay",
+      "nwp_todo": "save_export_as_csv",
+      "html_replacement_selector": "export-config-container",
+      "modal": "1"
+    },
+    "post": {
+      "data": "{\"fields_title\":\"Display Fields\",\"plugin\":\"nwp_reports\",\"table\":\"financial_indicators_on_enrolment_services\",\"current_tab\":\"financial_indicators_on_enrolment_services\",\"report_id\":\"ray20u3365850281\",\"page_offset\":\"0\",\"page_limit\":\"10000\",\"page_size\":\"500\",\"tables\":{\"financial_indicators_on_enrolment_services\":{\"date\":1,\"generated\":1,\"reason_generated\":1,\"agent\":1,\"agent_integrity\":1,\"status\":1}}}"
+    },
+    "time": "1699616736"
+  },
+  "end": 1699616737.026041,
+  "mem_end": 16021688,
+  "output": "{\n    \"re_process\": 1,\n    \"re_process_code\": 1,\n    \"mod\": \"-\",\n    \"id\": \"1b4ec5be183525b63285f4a4bfb43bb1\",\n    \"action\": \"?nwp_action=reports_bay&nwp_todo=check_bg_process&action=nwp_reports&todo=execute\",\n    \"typ\": \"saved\",\n    \"err\": \"\",\n    \"msg\": \"<h4><strong>Export has been Queued<\\/strong><\\/h4>You shall be notified when export is completed\",\n    \"cls\": \"creports_bay.php\",\n    \"mth\": \"save_export_as_csv\",\n    \"inf\": \"<h4><strong>Export has been Queued<\\/strong><\\/h4>You shall be notified when export is completed\",\n    \"theme\": \"note note-info alert-info\",\n    \"html\": \"<div class=\\\"alert note note-info alert-info alert-block1 alert-dismissable\\\"> <button type=\\\"button\\\" class=\\\"close alert-close-button\\\" data-dismiss=\\\"alert\\\">&times;<\\/button><p><h4><strong>Export has been Queued<\\/strong><\\/h4>You shall be notified when export is completed<\\/p><\\/div>\",\n    \"tok\": \"59ca632497172af7d16af5ce8baff2b8\",\n    \"nwp_status\": \"info\",\n    \"page_title\": \"\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_reports\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"save_export_as_csv\",\n        \"nwp_action\": \"reports_bay\",\n        \"duration\": 0.6323111057281494\n    }\n}"
+}

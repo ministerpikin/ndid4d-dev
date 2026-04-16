@@ -1,0 +1,1 @@
+<?php define( 'API_DEFINITION' , 'TRUE' ); ?>

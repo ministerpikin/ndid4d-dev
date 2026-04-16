@@ -1,0 +1,1 @@
+<?php define( 'HUSBAND_HISTORY' , 'TRUE' ); ?>

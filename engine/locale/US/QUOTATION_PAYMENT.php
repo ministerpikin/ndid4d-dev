@@ -1,0 +1,1 @@
+<?php define( 'QUOTATION_PAYMENT' , 'TRUE' ); ?>

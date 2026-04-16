@@ -1,0 +1,1 @@
+<?php define( 'BULK_MESSAGE_LOG' , 'TRUE' ); ?>

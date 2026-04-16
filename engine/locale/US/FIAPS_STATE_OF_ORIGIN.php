@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_STATE_OF_ORIGIN' , 'TRUE' ); ?>

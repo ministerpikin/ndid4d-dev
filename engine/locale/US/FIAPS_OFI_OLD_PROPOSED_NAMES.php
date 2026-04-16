@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_OFI_OLD_PROPOSED_NAMES' , 'TRUE' ); ?>

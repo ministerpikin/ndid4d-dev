@@ -1,0 +1,1 @@
+<?php define( 'DATABASE_OBJECTS' , 'TRUE' ); ?>

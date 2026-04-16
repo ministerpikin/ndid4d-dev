@@ -1,0 +1,13 @@
+ CREATE TABLE `meta_data`.`grm_data` ( `id` varchar(33) NOT NULL ,  `grm_data7055` int(11) DEFAULT NULL ,  `grm_data7056` int(11) DEFAULT NULL ,  `grm_data7057` varchar(200) DEFAULT NULL ,  `grm_data7058` varchar(100) DEFAULT NULL ,  `grm_data7059` varchar(100) DEFAULT NULL ,  `grm_data7060` varchar(100) DEFAULT NULL ,  `grm_data7061` varchar(100) DEFAULT NULL ,  `grm_data7062` varchar(200) DEFAULT NULL ,  `grm_data7063` varchar(100) DEFAULT NULL ,  `grm_data7064` int(11) DEFAULT NULL ,  `grm_data7065` int(11) DEFAULT NULL ,  `grm_data7066` varchar(100) DEFAULT NULL ,  `grm_data7067` varchar(100) DEFAULT NULL ,  `grm_data7068` varchar(100) DEFAULT NULL ,  `grm_data7069` varchar(100) DEFAULT NULL ,  `grm_data7070` varchar(200) DEFAULT NULL ,  `grm_data7071` int(11) DEFAULT NULL ,  `grm_data7072` varchar(100) DEFAULT NULL ,  `grm_data7073` int(11) DEFAULT NULL ,  `grm_data7074` int(11) DEFAULT NULL ,  `grm_data7075` varchar(200) DEFAULT NULL , `serial_num` int(11) NOT NULL, `creator_role` varchar(100) DEFAULT NULL, `created_source` varchar(100) DEFAULT NULL, `created_by` varchar(100) DEFAULT NULL, `creation_date` int(11) DEFAULT NULL, `modified_source` varchar(100) DEFAULT NULL, `modified_by` varchar(100) DEFAULT NULL, `modification_date` int(11) DEFAULT NULL, `ip_address` varchar(100) DEFAULT NULL, `device_id` text NOT NULL, `record_status` varchar(100) DEFAULT NULL ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ; 
+ALTER TABLE `meta_data`.`grm_data` ADD PRIMARY KEY (`serial_num`), ADD UNIQUE KEY `id` (`id`) ; 
+ALTER TABLE `meta_data`.`grm_data` MODIFY `serial_num` int(11) NOT NULL AUTO_INCREMENT ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7058`) ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7059`) ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7060`) ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7061`) ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7063`) ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7066`) ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7067`) ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7068`) ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7069`) ; 
+ALTER TABLE `meta_data`.`grm_data` ADD INDEX(`grm_data7072`) ; 

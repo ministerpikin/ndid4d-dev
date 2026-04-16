@@ -1,0 +1,23 @@
+{
+  "mem_start": 4056600,
+  "start": 1695806052.569294,
+  "name": "nwp_endpoint-execute-1695806052.json",
+  "data": {
+    "get": {
+      "action": "nwp_endpoint",
+      "todo": "execute",
+      "nwp_action": "endpoint",
+      "nwp_todo": "call_endpoint",
+      "html_replacement_selector": "datatable-split-screen-endpoint",
+      "menu_title": "Call Endpoint"
+    },
+    "post": {
+      "id": "ent20u3384273861",
+      "ids": ""
+    },
+    "time": "1695806052"
+  },
+  "end": 1695806052.930218,
+  "mem_end": 14782896,
+  "output": "{\n    \"re_process\": 1,\n    \"re_process_code\": 1,\n    \"mod\": \"-\",\n    \"id\": \"ent20u3384273861\",\n    \"action\": \"?action=nwp_endpoint&todo=execute&nwp_action=endpoint&nwp_todo=check_callpoint_progress\",\n    \"typ\": \"saved\",\n    \"err\": \"\",\n    \"msg\": \"<h4><b>Data Loading<\\/b><\\/h4><p>Data Loading Processing....<\\/p>\",\n    \"cls\": \"cendpoint.php\",\n    \"mth\": \"call_endpoint\",\n    \"inf\": \"<h4><b>Data Loading<\\/b><\\/h4><p>Data Loading Processing....<\\/p>\",\n    \"theme\": \"note note-info alert-info\",\n    \"tok\": \"596bf2c7d92360634c294fa8e3ccbc02\",\n    \"javascript_functions\": [\n        \"$nwProcessor.reload_datatable\"\n    ],\n    \"status\": \"new-status\",\n    \"nwp_status\": \"info\",\n    \"page_title\": \"Call Endpoint\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_endpoint\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"call_endpoint\",\n        \"nwp_action\": \"endpoint\",\n        \"duration\": 0.2639279365539551\n    }\n}"
+}

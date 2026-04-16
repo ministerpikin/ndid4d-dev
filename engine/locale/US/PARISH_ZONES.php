@@ -1,0 +1,1 @@
+<?php define( 'PARISH_ZONES' , 'TRUE' ); ?>

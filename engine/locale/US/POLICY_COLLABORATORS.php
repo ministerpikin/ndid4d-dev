@@ -1,0 +1,1 @@
+<?php define( 'POLICY_COLLABORATORS' , 'TRUE' ); ?>

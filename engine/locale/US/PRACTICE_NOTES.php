@@ -1,0 +1,1 @@
+<?php define( 'PRACTICE_NOTES' , 'TRUE' ); ?>

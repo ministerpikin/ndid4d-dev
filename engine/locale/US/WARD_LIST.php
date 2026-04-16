@@ -1,0 +1,1 @@
+<?php define( 'WARD_LIST' , 'TRUE' ); ?>

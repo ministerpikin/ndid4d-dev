@@ -1,0 +1,6 @@
+ CREATE TABLE `vine_pison2`.`users_professional_association` ( `id` varchar(33) NOT NULL , `serial_num` int(11) NOT NULL, `creator_role` varchar(200) DEFAULT NULL, `created_by` varchar(200) DEFAULT NULL, `creation_date` int(11) DEFAULT NULL, `modified_by` varchar(200) DEFAULT NULL, `modification_date` int(11) DEFAULT NULL, `ip_address` varchar(200) DEFAULT NULL, `device_id` text NOT NULL, `record_status` varchar(100) DEFAULT NULL ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ; 
+ALTER TABLE `vine_pison2`.`users_professional_association` ADD PRIMARY KEY (`serial_num`), ADD UNIQUE KEY `id` (`id`) ; 
+ALTER TABLE `vine_pison2`.`users_professional_association` MODIFY `serial_num` int(11) NOT NULL AUTO_INCREMENT ; 
+
+
+ALTER TABLE `vine_pison2`.`users_professional_association` ADD `users_professional_association2029` varchar(200) DEFAULT NULL AFTER `users_professional_association2028`;

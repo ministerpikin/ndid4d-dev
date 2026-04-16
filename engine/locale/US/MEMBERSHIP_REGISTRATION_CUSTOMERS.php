@@ -1,0 +1,3 @@
+<?php
+	define( 'MEMBERSHIP_REGISTRATION_CUSTOMERS' , 'TRUE' );
+?>

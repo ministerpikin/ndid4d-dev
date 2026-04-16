@@ -1,0 +1,1 @@
+<?php define( 'EXCHANGE_RATES' , 'TRUE' ); ?>

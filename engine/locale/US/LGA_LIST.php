@@ -1,0 +1,1 @@
+<?php define( 'LGA_LIST' , 'TRUE' ); ?>

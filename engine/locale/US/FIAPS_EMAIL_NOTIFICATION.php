@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_EMAIL_NOTIFICATION' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'CUSTOMERS_TABLE' , 'TRUE' ); ?>

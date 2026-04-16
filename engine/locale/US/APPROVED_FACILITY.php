@@ -1,0 +1,1 @@
+<?php define( 'APPROVED_FACILITY' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'IVF_TREATMENT_SIMULATION_CHART' , 'TRUE' ); ?>

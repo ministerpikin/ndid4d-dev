@@ -1,0 +1,1 @@
+<?php define( 'STOCK_COUNT' , 'TRUE' ); ?>

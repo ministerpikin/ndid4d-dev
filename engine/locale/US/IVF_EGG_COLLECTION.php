@@ -1,0 +1,1 @@
+<?php define( 'IVF_EGG_COLLECTION' , 'TRUE' ); ?>

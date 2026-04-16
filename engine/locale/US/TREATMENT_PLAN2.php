@@ -1,0 +1,1 @@
+<?php define( 'TREATMENT_PLAN2' , 'TRUE' ); ?>

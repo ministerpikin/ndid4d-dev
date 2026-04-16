@@ -1,0 +1,1 @@
+<?php define( 'CARE_PLAN' , 'TRUE' ); ?>

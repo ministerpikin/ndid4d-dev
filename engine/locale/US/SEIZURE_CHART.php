@@ -1,0 +1,1 @@
+<?php define( 'SEIZURE_CHART' , 'TRUE' ); ?>

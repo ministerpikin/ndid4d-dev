@@ -1,0 +1,1 @@
+<?php define( 'RATING_AND_REVIEW' , 'TRUE' ); ?>

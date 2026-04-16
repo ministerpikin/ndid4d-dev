@@ -1,0 +1,14 @@
+date,activity,data_quality,severity,agent,area,device_type,status,fep,api_user,device,attempts,type
+2025-04-01,gps_tracking,no,3,ent13u36310605911356868202,urban,mobile,resolved,Qa-test123,"Lorem ipsum dolor sit.",,139066993,multiple_attempts
+2025-04-01,others,yes,5,ent13u36310605911356868202,urban,laptops,escalated,Nftt,"Lorem ipsum dolor sit.",,768053331,multiple_attempts
+2025-04-01,device_onboarding,yes,4,ent13u36310605911356868202,rural,desktop_computers,escalated,Nftt,"Lorem ipsum dolor sit.",,1980608415,device_inactivity
+2025-04-01,2fa,no,4,ent13u3623147441521433280,urban,tablets,resolved,Qa-test123,"Lorem ipsum dolor sit.",,464104679,device_inactivity
+2025-04-01,fingerprints,no,1,ent13u3623147441521433280,urban,tablets,escalated,SEAMFIX001,"Lorem ipsum dolor sit.",,323422303,multiple_attempts
+2025-04-01,others,no,1,ecf551b0281de2e347ad8ba6129301e8,urban,tablets,suspicious,Nftt,"Lorem ipsum dolor sit.",,996752772,different_fep_login
+2025-04-01,gps_tracking,yes,1,ecf551b0281de2e347ad8ba6129301e8,urban,laptops,suspicious,Qa-test123,"Lorem ipsum dolor sit.",,605962079,different_fep_login
+2025-04-01,fingerprints,yes,2,ent13u3623147441521433280,urban,laptops,suspicious,Qa-test123,"Lorem ipsum dolor sit.",,1025099187,different_fep_login
+2025-04-01,fingerprints,yes,3,ent13u3623147441521433280,rural,desktop_computers,escalated,Qa-test123,"Lorem ipsum dolor sit.",,270047888,device_inactivity
+2025-04-01,gps_tracking,no,3,ent13u36310605911356868202,urban,tablets,suspicious,SEAMFIX001,"Lorem ipsum dolor sit.",,1105178295,different_fep_login
+2025-04-01,fingerprints,yes,5,ent13u3623147441521433280,urban,laptops,escalated,SEAMFIX001,"Lorem ipsum dolor sit.",,732922776,multiple_attempts
+2025-04-01,2fa,yes,2,ecf551b0281de2e347ad8ba6129301e8,urban,mobile,escalated,SEAMFIX001,"Lorem ipsum dolor sit.",,580978076,device_inactivity
+2025-04-01,gps_tracking,no,1,ecf551b0281de2e347ad8ba6129301e8,urban,mobile,escalated,Qa-test123,"Lorem ipsum dolor sit.",,1744144255,different_fep_login

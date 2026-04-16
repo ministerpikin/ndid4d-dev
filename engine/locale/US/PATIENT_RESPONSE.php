@@ -1,0 +1,1 @@
+<?php define( 'PATIENT_RESPONSE' , 'TRUE' ); ?>

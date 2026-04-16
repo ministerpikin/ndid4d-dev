@@ -1,0 +1,1 @@
+<?php define( 'PARISH_TRANSACTION' , 'TRUE' ); ?>

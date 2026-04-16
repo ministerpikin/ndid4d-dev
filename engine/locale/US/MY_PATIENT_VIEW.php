@@ -1,0 +1,1 @@
+<?php define( 'MY_PATIENT_VIEW' , 'TRUE' ); ?>

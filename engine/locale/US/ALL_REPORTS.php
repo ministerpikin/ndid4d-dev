@@ -1,0 +1,1 @@
+<?php define( 'ALL_REPORTS' , 'TRUE' ); ?>

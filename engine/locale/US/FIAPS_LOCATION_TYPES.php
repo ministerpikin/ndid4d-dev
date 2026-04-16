@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_LOCATION_TYPES' , 'TRUE' ); ?>

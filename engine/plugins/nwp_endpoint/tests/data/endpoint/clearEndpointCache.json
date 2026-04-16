@@ -1,0 +1,23 @@
+{
+  "mem_start": 4056472,
+  "start": 1695806012.48987,
+  "name": "nwp_endpoint-execute-1695806012.json",
+  "data": {
+    "get": {
+      "action": "nwp_endpoint",
+      "todo": "execute",
+      "nwp_action": "endpoint",
+      "nwp_todo": "reset_last_call_checkpoint",
+      "html_replacement_selector": "datatable-split-screen-endpoint",
+      "menu_title": "Reset Last Call"
+    },
+    "post": {
+      "id": "ent20u3384273861",
+      "ids": ""
+    },
+    "time": "1695806012"
+  },
+  "end": 1695806012.676503,
+  "mem_end": 14586800,
+  "output": "{\n    \"typ\": \"saved\",\n    \"err\": \"\",\n    \"msg\": \"<h4><b>Endpoint Cache Refreshed<\\/b><\\/h4><p>Endpoint cache call refreshed correctly<\\/p>\",\n    \"cls\": \"cendpoint.php\",\n    \"mth\": \"reset_last_call_checkpoint\",\n    \"inf\": \"<h4><b>Endpoint Cache Refreshed<\\/b><\\/h4><p>Endpoint cache call refreshed correctly<\\/p>\",\n    \"theme\": \"note note-success alert-success\",\n    \"tok\": \"2b57a377a3ff48b363a410586a7bd8ed\",\n    \"html_replacement_selector\": \"#datatable-split-screen-endpoint\",\n    \"html_replacement\": \"<div class=\\\"alert note note-success alert-success alert-block1 alert-dismissable\\\"> <button type=\\\"button\\\" class=\\\"close alert-close-button\\\" data-dismiss=\\\"alert\\\">&times;<\\/button><p><h4><b>Endpoint Cache Refreshed<\\/b><\\/h4><p>Endpoint cache call refreshed correctly<\\/p><\\/p><\\/div>\",\n    \"status\": \"new-status\",\n    \"nwp_status\": \"success\",\n    \"page_title\": \"Reset Last Call\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_endpoint\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"reset_last_call_checkpoint\",\n        \"nwp_action\": \"endpoint\",\n        \"duration\": 0.10236811637878418\n    }\n}"
+}

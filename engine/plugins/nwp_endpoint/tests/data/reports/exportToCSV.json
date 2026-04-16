@@ -1,0 +1,22 @@
+{
+  "mem_start": 4155232,
+  "start": 1696000156.876221,
+  "name": "nwp_reports-execute-1696000156.json",
+  "data": {
+    "get": {
+      "action": "nwp_reports",
+      "todo": "execute",
+      "nwp_action": "reports_bay",
+      "nwp_todo": "save_export_as_csv",
+      "html_replacement_selector": "export-config-container",
+      "modal": "1"
+    },
+    "post": {
+      "data": "{\"fields_title\":\"Display Fields\",\"plugin\":\"nwp_reports\",\"table\":\"es_monitoring\",\"current_tab\":\"es_monitoring\",\"report_id\":\"ray33u3334923991\",\"page_offset\":\"0\",\"page_limit\":\"10000\",\"page_size\":\"500\",\"tables\":{\"es_monitoring\":{\"nin\":1,\"poverty_quintile\":1,\"age\":1,\"disability_status\":1}}}"
+    },
+    "time": "1696000156"
+  },
+  "end": 1696000156.977222,
+  "mem_end": 14831392,
+  "output": "{\n    \"re_process\": 1,\n    \"re_process_code\": 1,\n    \"mod\": \"-\",\n    \"id\": \"20u33908825511619248145\",\n    \"action\": \"?nwp_action=reports_bay&nwp_todo=check_bg_process&action=nwp_reports&todo=execute\",\n    \"typ\": \"saved\",\n    \"err\": \"\",\n    \"msg\": \"<h4><strong>Export has been Queued<\\/strong><\\/h4>You shall be notified when export is completed\",\n    \"cls\": \"creports_bay.php\",\n    \"mth\": \"save_export_as_csv\",\n    \"inf\": \"<h4><strong>Export has been Queued<\\/strong><\\/h4>You shall be notified when export is completed\",\n    \"theme\": \"note note-info alert-info\",\n    \"html\": \"<div class=\\\"alert note note-info alert-info alert-block1 alert-dismissable\\\"> <button type=\\\"button\\\" class=\\\"close alert-close-button\\\" data-dismiss=\\\"alert\\\">&times;<\\/button><p><h4><strong>Export has been Queued<\\/strong><\\/h4>You shall be notified when export is completed<\\/p><\\/div>\",\n    \"tok\": \"65900b6408b365d8d56cfa310a918bee\",\n    \"nwp_status\": \"info\",\n    \"page_title\": \"\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_reports\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"save_export_as_csv\",\n        \"nwp_action\": \"reports_bay\",\n        \"duration\": 0.013635873794555664\n    }\n}"
+}

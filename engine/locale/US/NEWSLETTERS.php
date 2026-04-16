@@ -1,0 +1,3 @@
+<?php
+	define( 'NEWSLETTERS' , 'TRUE' );
+?>

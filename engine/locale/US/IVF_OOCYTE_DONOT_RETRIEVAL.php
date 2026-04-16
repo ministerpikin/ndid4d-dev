@@ -1,0 +1,1 @@
+<?php define( 'IVF_OOCYTE_DONOT_RETRIEVAL' , 'TRUE' ); ?>

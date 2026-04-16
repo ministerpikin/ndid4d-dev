@@ -1,0 +1,11 @@
+date,sex,date_of_birth,is_beneficiary,is_surveyed,is_disabled,disability_type,project_activities,project_information,projectsupported_investments,group,cbo,satisified,participating,cso_name,cso_meetings,cso_tpm,cso_cost,cso_contributions,project_name
+2025-04-01,,2025-04-01,no,no,yes,vision,yes,no,no,no,no,no,no,"Lorem ipsum dolor sit.",no,yes,1054185674,no,"Lorem ipsum dolor sit."
+2025-04-01,male,2025-04-01,yes,yes,no,cognition_remembering,yes,yes,yes,no,yes,no,yes,"Lorem ipsum dolor sit.",no,no,396213433,no,"Lorem ipsum dolor sit."
+2025-04-01,male,2025-04-01,yes,no,yes,mobility,no,yes,yes,no,yes,yes,no,"Lorem ipsum dolor sit.",yes,yes,714126270,yes,"Lorem ipsum dolor sit."
+2025-04-01,male,2025-04-01,yes,no,no,cognition_remembering,no,no,yes,yes,no,no,no,"Lorem ipsum dolor sit.",no,no,880214333,yes,"Lorem ipsum dolor sit."
+2025-04-01,,2025-04-01,yes,yes,yes,cognition_remembering,no,yes,yes,no,yes,no,yes,"Lorem ipsum dolor sit.",yes,yes,1851940084,yes,"Lorem ipsum dolor sit."
+2025-04-01,,2025-04-01,yes,no,no,hearing,no,no,yes,no,yes,no,no,"Lorem ipsum dolor sit.",no,no,1263010255,no,"Lorem ipsum dolor sit."
+2025-04-01,male,2025-04-01,no,yes,no,selfcare,no,no,no,no,no,yes,yes,"Lorem ipsum dolor sit.",no,yes,274533981,no,"Lorem ipsum dolor sit."
+2025-04-01,female,2025-04-01,no,yes,no,mobility,yes,no,yes,no,yes,yes,yes,"Lorem ipsum dolor sit.",no,yes,849763921,no,"Lorem ipsum dolor sit."
+2025-04-01,male,2025-04-01,no,yes,yes,vision,no,no,yes,yes,yes,no,no,"Lorem ipsum dolor sit.",yes,no,1771627928,no,"Lorem ipsum dolor sit."
+2025-04-01,male,2025-04-01,no,no,no,mobility,no,yes,yes,no,no,yes,no,"Lorem ipsum dolor sit.",yes,no,1998354934,no,"Lorem ipsum dolor sit."

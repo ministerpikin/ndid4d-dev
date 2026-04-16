@@ -1,0 +1,12 @@
+ CREATE TABLE `vine_pison2`.`tags` ( `id` varchar(55) NOT NULL , `tags2509` int(11) DEFAULT NULL , `tags5809` varchar(100) DEFAULT NULL , `tags2510` varchar(200) DEFAULT NULL , `tags2511` text DEFAULT NULL , `tags2512` varchar(200) DEFAULT NULL , `tags2513` varchar(100) DEFAULT NULL , `tags6972` varchar(100) DEFAULT NULL , `tags6973` varchar(100) DEFAULT NULL , `tags6974` varchar(100) DEFAULT NULL , `tags6975` varchar(100) DEFAULT NULL , `tags2514` varchar(200) DEFAULT NULL , `tags2515` varchar(200) DEFAULT NULL , `tags5813` varchar(100) DEFAULT NULL , `tags6012` varchar(100) DEFAULT NULL , `tags5810` text DEFAULT NULL , `serial_num` int(11) NOT NULL, `creator_role` varchar(100) DEFAULT NULL, `created_source` varchar(100) DEFAULT NULL, `created_by` varchar(100) DEFAULT NULL, `creation_date` int(11) DEFAULT NULL, `modified_source` varchar(100) DEFAULT NULL, `modified_by` varchar(100) DEFAULT NULL, `modification_date` int(11) DEFAULT NULL, `ip_address` varchar(100) DEFAULT NULL, `device_id` text NULL, `record_status` varchar(100) DEFAULT NULL ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ; 
+ALTER TABLE `vine_pison2`.`tags` ADD PRIMARY KEY (`serial_num`), ADD UNIQUE KEY `id` (`id`) ; 
+ALTER TABLE `vine_pison2`.`tags` MODIFY `serial_num` int(11) NOT NULL AUTO_INCREMENT ; 
+ALTER TABLE `vine_pison2`.`tags` ADD INDEX(`tags5809`) ; 
+ALTER TABLE `vine_pison2`.`tags` ADD INDEX(`tags2513`) ; 
+ALTER TABLE `vine_pison2`.`tags` ADD INDEX(`tags6972`) ; 
+ALTER TABLE `vine_pison2`.`tags` ADD INDEX(`tags6973`) ; 
+ALTER TABLE `vine_pison2`.`tags` ADD INDEX(`tags6974`) ; 
+ALTER TABLE `vine_pison2`.`tags` ADD INDEX(`tags6975`) ; 
+ALTER TABLE `vine_pison2`.`tags` ADD INDEX(`tags5813`) ; 
+ALTER TABLE `vine_pison2`.`tags` ADD INDEX(`tags6012`) ; 
+ALTER TABLE `vine_pison2`.`tags`  ADD `tags7327` varchar(200) DEFAULT NULL AFTER `tags2515` ,  ADD `tags7328` varchar(200) DEFAULT NULL AFTER `tags7327` ; 

@@ -1,0 +1,79 @@
+	
+	ul.tools_list>li, ul.tools_from_database>li {
+	    margin: 12px 0;
+	    list-style-type: none;
+	    border: 2px solid gray;
+	    border-radius: 4px !important;
+	    padding: 4px;
+	}
+	.hey {
+		margin: 10px 20px 10px;
+	}
+
+	span.options {
+		/* position: relative; */
+		/* font-size: 25px; */
+		/* font-weight: bold; */
+		/* float: right; */
+		/* right: 16px; */
+	}
+	.row.demo-row {
+	    border: 0.5px dashed black;
+	    min-height: 100px;
+		margin-bottom:20px;
+	}
+	#finalWizard i{
+		padding: 0 5px;
+	}
+	div.demo-col {
+		
+		border: 1px dashed black;
+		min-height: 100px;
+		padding: 0;
+	}
+	
+	.ui-state-highlight{
+		height: fit-content;
+	}
+	.demo-row>.options {
+		clear: both;
+		display: block;
+		position: absolute;
+		margin-top: -26px;
+		right: 3em;
+	}
+	#list-option input{
+		position: absolute;
+	}
+	div#list-option input {
+	    width: 33%;
+	    float: left;
+	    position: relative;
+	}
+	#field-script-container,
+	#field-options-container{
+		    border: 1px solid #ddd;
+		box-shadow: 2px 2px 2px #ddd;
+		width: 96%;
+		position: absolute;
+		top: 1%;
+		padding: 25px;
+		z-index: 10;
+		background: #fff;
+	}
+	#field-script-container fieldset,
+	#field-options-container fieldset{
+		
+	}
+	#field-label{
+		text-transform: uppercase;
+		display: inline;
+	}
+	ul.tools_from_database,
+	ul.tools_list{
+		padding-left:0;
+	}
+	input.position{
+		/*float: right;*/
+    	width: 3em;
+	}

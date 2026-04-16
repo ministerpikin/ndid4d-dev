@@ -1,0 +1,1 @@
+<?php define( 'PURCHASE_IMPORT_OPTIONS' , 'TRUE' ); ?>

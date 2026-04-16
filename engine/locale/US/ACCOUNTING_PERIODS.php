@@ -1,0 +1,1 @@
+<?php define( 'ACCOUNTING_PERIODS' , 'TRUE' ); ?>

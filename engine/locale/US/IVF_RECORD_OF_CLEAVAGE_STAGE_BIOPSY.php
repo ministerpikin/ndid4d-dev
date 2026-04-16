@@ -1,0 +1,1 @@
+<?php define( 'IVF_RECORD_OF_CLEAVAGE_STAGE_BIOPSY' , 'TRUE' ); ?>

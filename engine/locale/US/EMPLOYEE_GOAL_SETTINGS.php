@@ -1,0 +1,1 @@
+<?php define( 'EMPLOYEE_GOAL_SETTINGS' , 'TRUE' ); ?>

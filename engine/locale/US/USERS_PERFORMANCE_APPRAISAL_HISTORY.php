@@ -1,0 +1,1 @@
+<?php define( 'USERS_PERFORMANCE_APPRAISAL_HISTORY' , 'TRUE' ); ?>

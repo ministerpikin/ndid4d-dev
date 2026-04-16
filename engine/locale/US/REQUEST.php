@@ -1,0 +1,1 @@
+<?php define( 'REQUEST' , 'TRUE' ); ?>

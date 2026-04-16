@@ -1,0 +1,1 @@
+<?php define( 'IVF_PRE_EGG_COLLECTION_INSTRUCTIONS' , 'TRUE' ); ?>

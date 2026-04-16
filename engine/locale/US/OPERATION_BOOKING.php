@@ -1,0 +1,1 @@
+<?php define( 'OPERATION_BOOKING' , 'TRUE' ); ?>

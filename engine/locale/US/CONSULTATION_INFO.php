@@ -1,0 +1,1 @@
+<?php define( 'CONSULTATION_INFO' , 'TRUE' ); ?>

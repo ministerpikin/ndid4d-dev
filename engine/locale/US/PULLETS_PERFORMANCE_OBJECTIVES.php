@@ -1,0 +1,3 @@
+<?php
+	define( 'PULLETS_PERFORMANCE_OBJECTIVES' , 'TRUE' );
+?>

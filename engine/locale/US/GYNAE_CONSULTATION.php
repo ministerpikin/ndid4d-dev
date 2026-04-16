@@ -1,0 +1,1 @@
+<?php define( 'GYNAE_CONSULTATION' , 'TRUE' ); ?>

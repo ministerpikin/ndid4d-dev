@@ -1,0 +1,1 @@
+<?php define( 'FLUID_CHART' , 'TRUE' ); ?>

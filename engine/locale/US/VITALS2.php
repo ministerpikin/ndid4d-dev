@@ -1,0 +1,1 @@
+<?php define( 'VITALS2' , 'TRUE' ); ?>

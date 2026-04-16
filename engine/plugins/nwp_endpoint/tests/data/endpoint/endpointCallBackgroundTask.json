@@ -1,0 +1,22 @@
+{
+  "mem_start": 3983616,
+  "start": 1695806053.029475,
+  "name": "nwp_endpoint-execute-1695806053.json",
+  "data": {
+    "get": {
+      "action": "nwp_endpoint",
+      "todo": "execute",
+      "nwp_action": "endpoint",
+      "nwp_todo": "call_endpoint_bg",
+      "key": "1kup4gher24dchbva488p4e4rk"
+    },
+    "post": {
+      "user_id": "35991362173",
+      "id": "ent20u3384273861"
+    },
+    "time": "1695806053"
+  },
+  "end": 1695806062.424036,
+  "mem_end": 16790192,
+  "output": "{\n    \"typ\": \"saved\",\n    \"err\": \"\",\n    \"msg\": \"<h4><b>Endpoint Call Successful<\\/b><\\/h4><p>Data Load Successful<\\/p>\",\n    \"cls\": \"cendpoint.php\",\n    \"mth\": \"save_dataload\",\n    \"inf\": \"<h4><b>Endpoint Call Successful<\\/b><\\/h4><p>Data Load Successful<\\/p>\",\n    \"theme\": \"note note-success alert-success\",\n    \"tok\": \"7b96e3b696a71dc5c19e8b3ac4e8e5e8\",\n    \"javascript_functions\": [\n        \"$nwProcessor.reload_datatable\"\n    ],\n    \"status\": \"new-status\",\n    \"nwp_status\": \"success\",\n    \"page_title\": \"\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_endpoint\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"call_endpoint_bg\",\n        \"nwp_action\": \"endpoint\",\n        \"duration\": 9.302097797393799\n    }\n}"
+}

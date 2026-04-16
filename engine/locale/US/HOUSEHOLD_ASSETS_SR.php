@@ -1,0 +1,1 @@
+<?php define( 'HOUSEHOLD_ASSETS_SR' , 'TRUE' ); ?>

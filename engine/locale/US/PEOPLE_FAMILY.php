@@ -1,0 +1,1 @@
+<?php define( 'PEOPLE_FAMILY' , 'TRUE' ); ?>

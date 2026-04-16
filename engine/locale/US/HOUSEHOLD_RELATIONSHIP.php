@@ -1,0 +1,1 @@
+<?php define( 'HOUSEHOLD_RELATIONSHIP' , 'TRUE' ); ?>

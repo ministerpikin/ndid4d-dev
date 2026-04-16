@@ -1,0 +1,1 @@
+<?php define( 'CASE_ASSIGNMENT' , 'TRUE' ); ?>

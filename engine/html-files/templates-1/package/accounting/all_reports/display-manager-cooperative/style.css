@@ -1,0 +1,11 @@
+#main-tabs.tabbable-custom > .tab-content{
+	border: 1px solid #212121;
+}
+#main-tabs .nav-tabs>li.active>a,
+#main-tabs .nav-tabs>li.active>a:hover,
+#main-tabs .nav-tabs>li.active>a:focus{
+	border-color: #212121 #212121 transparent;
+}   
+.page-content{
+  background:#f1f1f1;
+}

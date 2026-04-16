@@ -1,0 +1,1 @@
+<?php define( 'SSN_PROGRAM_PURPOSE' , 'TRUE' ); ?>

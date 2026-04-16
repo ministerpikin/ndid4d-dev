@@ -1,0 +1,1 @@
+<?php define( 'FILES_MOVEMENT' , 'TRUE' ); ?>

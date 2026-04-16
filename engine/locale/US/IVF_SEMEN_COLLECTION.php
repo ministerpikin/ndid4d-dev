@@ -1,0 +1,1 @@
+<?php define( 'IVF_SEMEN_COLLECTION' , 'TRUE' ); ?>

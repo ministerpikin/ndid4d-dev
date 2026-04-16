@@ -1,0 +1,1 @@
+<?php define( 'MORTUARY_CABINET' , 'TRUE' ); ?>

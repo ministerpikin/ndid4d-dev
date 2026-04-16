@@ -1,0 +1,1 @@
+<?php define( 'DRAG_DROP_FORMS' , 'TRUE' ); ?>

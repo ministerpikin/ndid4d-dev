@@ -1,0 +1,20 @@
+{
+  "mem_start": 4025664,
+  "start": 1696399983.72348,
+  "name": "users-verify_otp-1696399983.json",
+  "data": {
+    "get": {
+      "action": "users",
+      "todo": "verify_otp",
+      "default": "default"
+    },
+    "post": {
+      "formParams": "{\"HYELLA_DEFAULT_LOCATION\":\"main.php\",\"device_otp\":\"8e83e283abd46ba85d3074c2556c82fd\",\"d1\":\"bfa196ff7da25ed876ac9ed6ed600908\",\"d2\":\"e27d42e2661738750b1207dc8437462d\",\"id\":\"urs20u3099600451\",\"table\":\"users\"}",
+      "otp": "ls8cgn"
+    },
+    "time": "1696399983"
+  },
+  "end": 1696399984.225192,
+  "mem_end": 14139440,
+  "output": "{\n    \"status\": \"new-status\",\n    \"redirect_url\": \"main.php\",\n    \"page_title\": \"\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"users\",\n        \"action\": \"verify_otp\",\n        \"duration\": 0.4200320243835449\n    }\n}"
+}

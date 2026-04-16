@@ -1,0 +1,3 @@
+<?php
+	define( 'DISCOUNT' , 'TRUE' );
+?>

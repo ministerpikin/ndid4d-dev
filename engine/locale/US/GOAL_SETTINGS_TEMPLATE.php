@@ -1,0 +1,1 @@
+<?php define( 'GOAL_SETTINGS_TEMPLATE' , 'TRUE' ); ?>

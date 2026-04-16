@@ -1,0 +1,1 @@
+<?php define( 'LOGGED_IN_USERS' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'INVENTORY_ENT_SNH' , 'TRUE' ); ?>

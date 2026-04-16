@@ -1,0 +1,22 @@
+{
+  "mem_start": 4139456,
+  "start": 1695894658.904572,
+  "name": "nwp_endpoint-execute-1695894658.json",
+  "data": {
+    "get": {
+      "action": "nwp_endpoint",
+      "todo": "execute",
+      "nwp_action": "endpoint_log",
+      "nwp_todo": "purge_rerun_endpoint",
+      "html_replacement_selector": "dash-board-main-content-area",
+      "menu_title": "Purge Data & Re-Run"
+    },
+    "post": {
+      "id": "eg3389827372131798084"
+    },
+    "time": "1695894658"
+  },
+  "end": 1695894659.439178,
+  "mem_end": 16805736,
+  "output": "{\n    \"re_process\": 1,\n    \"re_process_code\": 1,\n    \"mod\": \"-\",\n    \"id\": \"ent20u3372019901\",\n    \"action\": \"?action=nwp_endpoint&todo=execute&nwp_action=endpoint&nwp_todo=check_callpoint_progress\",\n    \"typ\": \"saved\",\n    \"err\": \"\",\n    \"msg\": \"<h4><b>Data Loading<\\/b><\\/h4><p>Data Loading Processing....<\\/p>\",\n    \"cls\": \"cendpoint.php\",\n    \"mth\": \"call_endpoint\",\n    \"inf\": \"<h4><b>Data Loading<\\/b><\\/h4><p>Data Loading Processing....<\\/p>\",\n    \"theme\": \"note note-info alert-info\",\n    \"tok\": \"c820ef1e1f1ef9246edd5135f9837610\",\n    \"javascript_functions\": [\n        \"$nwProcessor.reload_datatable\",\n        \"$nwProcessor.reload_datatable\"\n    ],\n    \"status\": \"new-status\",\n    \"nwp_status\": \"info\",\n    \"page_title\": \"Purge Data & Re-Run\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_endpoint\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"purge_rerun_endpoint\",\n        \"nwp_action\": \"endpoint_log\",\n        \"duration\": 0.4394710063934326\n    }\n}"
+}

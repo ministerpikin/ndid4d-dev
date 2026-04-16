@@ -1,0 +1,1 @@
+<?php define( 'OBSERVATION_CHART' , 'TRUE' ); ?>

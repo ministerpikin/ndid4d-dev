@@ -1,0 +1,1 @@
+<?php define( 'LOCAL_GOVERNMENT_AREA' , 'TRUE' ); ?>

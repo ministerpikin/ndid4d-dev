@@ -1,0 +1,1 @@
+<?php define( 'INVESTMENT' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'PRIEST_NEXT_OF_KIN' , 'TRUE' ); ?>

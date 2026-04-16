@@ -1,0 +1,1 @@
+<?php define( 'PROGRAM_SCHEDULE' , 'TRUE' ); ?>

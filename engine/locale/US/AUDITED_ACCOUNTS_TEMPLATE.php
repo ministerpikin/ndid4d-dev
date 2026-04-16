@@ -1,0 +1,1 @@
+<?php define( 'AUDITED_ACCOUNTS_TEMPLATE' , 'TRUE' ); ?>

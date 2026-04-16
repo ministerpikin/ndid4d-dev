@@ -1,0 +1,3 @@
+<?php
+	define( 'LOGS' , 'TRUE' );
+?>

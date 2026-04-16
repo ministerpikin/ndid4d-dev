@@ -1,0 +1,1 @@
+<?php define( 'HELP_MESSAGES' , 'TRUE' ); ?>

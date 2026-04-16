@@ -1,0 +1,1 @@
+<?php define( 'PROGRAM_COMMUNITIES' , 'TRUE' ); ?>

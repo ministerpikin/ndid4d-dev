@@ -1,0 +1,31 @@
+{
+    "mem_start": 4147472,
+    "start": 1695039762.807847,
+    "name": "nwp_endpoint-execute-1695039762.json",
+    "data": {
+        "get": {
+            "action": "nwp_endpoint",
+            "todo": "execute",
+            "nwp_action": "endpoint",
+            "nwp_todo": "save_dataload",
+            "html_replacement_selector": "bulk-upload-form-container"
+        },
+        "post": {
+            "id": "",
+            "uid": "",
+            "user_priv": "",
+            "table": "endpoint",
+            "table_id": "",
+            "processing": "5eed4fb3ce5ed518e00d2c22f56773b1",
+            "origin": "?action=nwp_endpoint&todo=execute&nwp_action=react_handler&nwp_todo=manage_fileload&html_replacement_selector=dash-board-main-content-area&is_menu=1&current_tab=report_bay&menu_title=Load%20Data%20via&branch=-&current_store=",
+            "dtable": "type=plugin:::key=nwp_reports:::value=reports_bay",
+            "type": "csv",
+            "_file": "plugins\/nwp_endpoint\/tests\/data\/social_accountability_monitoring_7k.csv",
+            "_file_json": "{\"080c19050b4e0797d58656e094e2d1cc\":{\"success\":\"true\",\"title\":\"social-acc\",\"label\":\"undefined\",\"oname\":\"social-acc.csv\",\"stored_name\":\"files\/endpoint\/20u3381276701.csv\",\"dir\":\"engine\/files\/endpoint\/\",\"fullname\":\"http:\/\/127.0.0.1\/engine\/files\/endpoint\/\",\"filename\":\"20u3381276701\",\"ext\":\"csv\",\"element\":\"_file\",\"ocr\":\"text\",\"query_type\":\"FILE\"}}"
+        },
+        "time": "1695039762"
+    },
+    "end": 1695039762.908731,
+    "mem_end": 16042584,
+    "output": "{\n    \"typ\": \"uerror\",\n    \"err\": \"\",\n    \"msg\": \"Missing Fields in CSV file. The first row of the file must contain the following fields: date, name, title, group, type, category, endpoint, status, staff_responsible, report_key, parent_report, data\",\n    \"cls\": \"cendpoint.php\",\n    \"mth\": \"save_dataload\",\n    \"inf\": \"Missing Fields in CSV file. The first row of the file must contain the following fields: date, name, title, group, type, category, endpoint, status, staff_responsible, report_key, parent_report, data\",\n    \"theme\": \"alert-error note note-danger alert-danger\",\n    \"tok\": \"8661ddc9f926e2b6bd4c0768d50ee9ee\",\n    \"data\": {\n        \"required\": 1\n    },\n    \"status\": \"new-status\",\n    \"page_title\": \"\",\n    \"development\": null,\n    \"audit_params\": {\n        \"class\": \"nwp_endpoint\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"save_dataload\",\n        \"nwp_action\": \"endpoint\",\n        \"duration\": 0.005261898040771484\n    }\n}"
+}

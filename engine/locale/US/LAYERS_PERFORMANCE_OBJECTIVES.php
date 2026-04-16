@@ -1,0 +1,3 @@
+<?php
+	define( 'LAYERS_PERFORMANCE_OBJECTIVES' , 'TRUE' );
+?>

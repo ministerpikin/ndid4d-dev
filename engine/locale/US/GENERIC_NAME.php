@@ -1,0 +1,1 @@
+<?php define( 'GENERIC_NAME' , 'TRUE' ); ?>

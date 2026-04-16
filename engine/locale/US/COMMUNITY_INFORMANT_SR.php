@@ -1,0 +1,1 @@
+<?php define( 'COMMUNITY_INFORMANT_SR' , 'TRUE' ); ?>

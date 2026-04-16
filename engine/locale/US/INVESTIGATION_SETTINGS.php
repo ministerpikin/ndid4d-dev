@@ -1,0 +1,1 @@
+<?php define( 'INVESTIGATION_SETTINGS' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'BANK_RECONCILIATION_VIEW' , 'TRUE' ); ?>

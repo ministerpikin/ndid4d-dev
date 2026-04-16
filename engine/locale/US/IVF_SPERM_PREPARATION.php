@@ -1,0 +1,1 @@
+<?php define( 'IVF_SPERM_PREPARATION' , 'TRUE' ); ?>

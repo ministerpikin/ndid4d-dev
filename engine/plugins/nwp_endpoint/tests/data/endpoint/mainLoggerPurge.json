@@ -1,0 +1,45 @@
+{
+  "mem_start": 4140144,
+  "start": 1695897190.545482,
+  "name": "nwp_logging-execute-1695897190.json",
+  "data": {
+    "get": {
+      "action": "nwp_logging",
+      "todo": "execute",
+      "nwp_action": "log_main_logger",
+      "nwp_todo": "purge_data",
+      "html_replacement_selector": "dash-board-main-content-area",
+      "menu_title": "Purge Data"
+    },
+    "post": {
+      "id": "338985219501968345227W1"
+    },
+    "time": "1695897190"
+  },
+  "end": 1695897190.792809,
+  "mem_end": 16307904,
+  "output": {
+    "typ": "saved",
+    "err": "",
+    "msg": "<h4><b>Data Purged Successfully</b></h4><p>Data associated to selected log item has been purged successfully</p>",
+    "cls": "clog_main_logger.php",
+    "mth": "purge_data",
+    "inf": "<h4><b>Data Purged Successfully</b></h4><p>Data associated to selected log item has been purged successfully</p>",
+    "theme": "note note-success alert-success",
+    "tok": "25215510292d4e56c81fb037c69de64c",
+    "javascript_functions": [
+      "$nwProcessor.reload_datatable"
+    ],
+    "status": "new-status",
+    "nwp_status": "success",
+    "page_title": "Purge Data",
+    "development": 1,
+    "audit_params": {
+      "class": "nwp_logging",
+      "action": "execute",
+      "nwp_todo": "purge_data",
+      "nwp_action": "log_main_logger",
+      "duration": 0.15986108779907227
+    }
+  }
+}

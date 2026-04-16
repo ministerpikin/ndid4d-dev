@@ -1,0 +1,1 @@
+<?php define( 'HOUSEHOLDS_SR' , 'TRUE' ); ?>

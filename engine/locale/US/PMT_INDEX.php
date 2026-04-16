@@ -1,0 +1,1 @@
+<?php define( 'PMT_INDEX' , 'TRUE' ); ?>

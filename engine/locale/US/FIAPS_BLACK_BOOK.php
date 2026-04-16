@@ -1,0 +1,1 @@
+<?php define( 'FIAPS_BLACK_BOOK' , 'TRUE' ); ?>

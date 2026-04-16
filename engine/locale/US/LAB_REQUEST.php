@@ -1,0 +1,1 @@
+<?php define( 'LAB_REQUEST' , 'TRUE' ); ?>

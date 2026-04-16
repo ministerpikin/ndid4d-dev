@@ -1,0 +1,1 @@
+<?php define( 'SURVEY_ASSIGNMENT' , 'TRUE' ); ?>

@@ -1,0 +1,60 @@
+# .gitignore
+
+ndid4d-dev-main.sublime-project
+ndid4d-dev-main.sublime-workspace
+engine/tmp/*
+/index.php
+meta-data/tmp/*
+meta-data/app/eres/*
+
+ndid4d-dev-main*
+engine/remove-unused-classes.php
+engine/s_test.php
+engine/test.php
+engine/test2.php
+engine/test-pato.php
+engine/test-stephen.php
+engine/test-validate-select-insert.php
+engine/project-schedule-builder.php
+engine/make-recent.php
+engine/logo-b.png
+engine/logo.jpg
+engine/logo-b.jpg
+engine/discard-import-tablespace.php
+engine/db.php
+engine/dashboard*
+engine/css*
+engine/frontend-assets*
+
+# engine/settings/provisioning.php
+engine/php/dump-files/*
+engine/php/dump/*
+bprocess.bat
+*.bat
+
+engine/php/openfile.bat
+engine/php/request-log*
+engine/php/download*
+engine/php/files*
+engine/php/mail-status*
+
+engine/files/*
+!engine/files/resource_library/
+*.zip
+
+#.gitattributes
+
+engine/plugins/nwp_queue/classes/vendor/*
+engine/plugins/nwp_queue/rabbit-mq/vendor*
+
+# Branch-specific rules
+# MandE branch rules
+[branch "m-and-e"]
+    # Rules specific to the MandE branch
+    meta-data/*
+	.vscode
+
+# Metadata branch rules
+[branch "metadata"]
+    # Rules specific to the Metadata branch
+    m-and-e/*

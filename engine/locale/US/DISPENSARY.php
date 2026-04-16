@@ -1,0 +1,3 @@
+<?php
+	define( 'DISPENSARY' , 'TRUE' );
+?>

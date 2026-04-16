@@ -1,0 +1,1 @@
+<?php define( 'PRESCRIPTION_FORMULARY' , 'TRUE' ); ?>

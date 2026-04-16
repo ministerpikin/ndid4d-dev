@@ -1,0 +1,1 @@
+<?php define( 'ODOO_CUSTOMERS' , 'TRUE' ); ?>

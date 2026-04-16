@@ -1,0 +1,1 @@
+<?php define( 'ONLINE_PAYMENT' , 'TRUE' ); ?>

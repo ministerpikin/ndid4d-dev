@@ -1,0 +1,1 @@
+<?php define( 'ROOTS_VERIFICATION' , 'TRUE' ); ?>

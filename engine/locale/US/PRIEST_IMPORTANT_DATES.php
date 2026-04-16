@@ -1,0 +1,1 @@
+<?php define( 'PRIEST_IMPORTANT_DATES' , 'TRUE' ); ?>

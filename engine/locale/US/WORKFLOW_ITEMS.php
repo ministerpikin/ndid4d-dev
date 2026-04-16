@@ -1,0 +1,1 @@
+<?php define( 'WORKFLOW_ITEMS' , 'TRUE' ); ?>

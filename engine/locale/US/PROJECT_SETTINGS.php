@@ -1,0 +1,1 @@
+<?php define( 'PROJECT_SETTINGS' , 'TRUE' ); ?>

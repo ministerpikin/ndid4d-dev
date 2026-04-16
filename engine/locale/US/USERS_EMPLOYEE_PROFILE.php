@@ -1,0 +1,1 @@
+<?php define( 'USERS_EMPLOYEE_PROFILE' , 'TRUE' ); ?>

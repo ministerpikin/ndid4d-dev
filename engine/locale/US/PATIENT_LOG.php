@@ -1,0 +1,1 @@
+<?php define( 'PATIENT_LOG' , 'TRUE' ); ?>

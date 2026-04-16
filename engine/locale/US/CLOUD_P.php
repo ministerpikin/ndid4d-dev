@@ -1,0 +1,1 @@
+<?php define( 'CLOUD_P' , 'TRUE' ); ?>

@@ -1,0 +1,1 @@
+<?php define( 'COST_CENTER_EXPENSES' , 'TRUE' ); ?>

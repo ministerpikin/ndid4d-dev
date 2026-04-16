@@ -1,0 +1,1 @@
+<?php define( 'CONSUMABLES_REQUISITION' , 'TRUE' ); ?>

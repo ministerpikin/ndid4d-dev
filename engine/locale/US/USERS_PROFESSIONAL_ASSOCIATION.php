@@ -1,0 +1,1 @@
+<?php define( 'USERS_PROFESSIONAL_ASSOCIATION' , 'TRUE' ); ?>

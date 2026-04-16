@@ -1,0 +1,1 @@
+<?php define( 'LOCKED_FILES' , 'TRUE' ); ?>

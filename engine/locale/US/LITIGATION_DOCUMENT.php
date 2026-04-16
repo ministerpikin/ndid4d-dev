@@ -1,0 +1,1 @@
+<?php define( 'LITIGATION_DOCUMENT' , 'TRUE' ); ?>

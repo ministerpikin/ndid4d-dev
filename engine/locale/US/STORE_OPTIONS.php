@@ -1,0 +1,1 @@
+<?php define( 'STORE_OPTIONS' , 'TRUE' ); ?>

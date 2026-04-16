@@ -1,0 +1,1 @@
+<?php define( 'TAGS_LIBRARY' , 'TRUE' ); ?>

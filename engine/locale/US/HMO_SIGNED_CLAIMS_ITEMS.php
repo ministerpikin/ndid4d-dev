@@ -1,0 +1,1 @@
+<?php define( 'HMO_SIGNED_CLAIMS_ITEMS' , 'TRUE' ); ?>

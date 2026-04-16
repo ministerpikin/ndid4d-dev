@@ -1,0 +1,1 @@
+<?php define( 'HMO_ORGANIZATION' , 'TRUE' ); ?>

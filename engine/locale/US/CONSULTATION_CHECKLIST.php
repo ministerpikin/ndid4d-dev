@@ -1,0 +1,1 @@
+<?php define( 'CONSULTATION_CHECKLIST' , 'TRUE' ); ?>

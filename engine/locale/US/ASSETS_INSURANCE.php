@@ -1,0 +1,1 @@
+<?php define( 'ASSETS_INSURANCE' , 'TRUE' ); ?>

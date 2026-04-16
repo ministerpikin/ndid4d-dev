@@ -1,0 +1,1 @@
+<?php define( 'ASSIGNED_PACKAGED_SERVICES' , 'TRUE' ); ?>

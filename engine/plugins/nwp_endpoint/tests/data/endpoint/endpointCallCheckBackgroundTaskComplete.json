@@ -1,0 +1,22 @@
+{
+  "mem_start": 4062064,
+  "start": 1695806057.431587,
+  "name": "nwp_endpoint-execute-1695806057.json",
+  "data": {
+    "get": {
+      "action": "nwp_endpoint",
+      "todo": "execute",
+      "nwp_action": "endpoint",
+      "nwp_todo": "check_callpoint_progress",
+      "nwp_repro": "1"
+    },
+    "post": {
+      "mod": "-",
+      "id": "ent20u3384273861"
+    },
+    "time": "1695806057"
+  },
+  "end": 1695806062.519642,
+  "mem_end": 14590096,
+  "output": "{\n    \"typ\": \"saved\",\n    \"err\": \"\",\n    \"msg\": \"<h4><b>Endpoint Call Successful<\\/b><\\/h4><p>Data Load Successful<\\/p>\",\n    \"cls\": \"cendpoint.php\",\n    \"mth\": \"save_dataload\",\n    \"inf\": \"<h4><b>Endpoint Call Successful<\\/b><\\/h4><p>Data Load Successful<\\/p>\",\n    \"theme\": \"note note-success alert-success\",\n    \"tok\": \"7b96e3b696a71dc5c19e8b3ac4e8e5e8\",\n    \"javascript_functions\": [\n        \"$nwProcessor.reload_datatable\",\n        \"$nwProcessor.reload_datatable\"\n    ],\n    \"status\": \"new-status\",\n    \"nwp_status\": \"success\",\n    \"page_title\": \"\",\n    \"development\": 1,\n    \"audit_params\": {\n        \"class\": \"nwp_endpoint\",\n        \"action\": \"execute\",\n        \"nwp_todo\": \"check_callpoint_progress\",\n        \"nwp_action\": \"endpoint\",\n        \"duration\": 5.004086971282959\n    }\n}"
+}

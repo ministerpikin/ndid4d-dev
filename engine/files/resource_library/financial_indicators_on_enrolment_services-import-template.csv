@@ -1,0 +1,13 @@
+date,generated,reason_generated,agent,agent_integrity,status
+2025-04-01,no,inaccuracy,"Lorem ipsum dolor sit.",not_passed,in_active
+2025-04-01,no,delays,"Lorem ipsum dolor sit.",passed,active
+2025-04-01,yes,inaccuracy,"Lorem ipsum dolor sit.",passed,active
+2025-04-01,yes,others,"Lorem ipsum dolor sit.",passed,active
+2025-04-01,yes,disapproval,"Lorem ipsum dolor sit.",not_passed,in_active
+2025-04-01,no,inaccuracy,"Lorem ipsum dolor sit.",passed,active
+2025-04-01,yes,inaccuracy,"Lorem ipsum dolor sit.",not_passed,active
+2025-04-01,yes,disapproval,"Lorem ipsum dolor sit.",not_passed,active
+2025-04-01,yes,inaccuracy,"Lorem ipsum dolor sit.",passed,active
+2025-04-01,yes,delays,"Lorem ipsum dolor sit.",not_passed,in_active
+2025-04-01,yes,others,"Lorem ipsum dolor sit.",not_passed,in_active
+2025-04-01,yes,inaccuracy,"Lorem ipsum dolor sit.",not_passed,in_active

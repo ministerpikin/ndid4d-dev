@@ -1,0 +1,3 @@
+<?php
+	define( 'CART' , 'TRUE' );
+?>
